@@ -4,7 +4,7 @@ import { exampleProducts } from '@myorg/products';
 export function App() {
   return (
     <div>
-      <Banner text="Welcome to our admin app." />
+      <Banner text="Welcome to our store app." />
       <ul>
         {exampleProducts.map((product) => (
           <li key={product.id}>
