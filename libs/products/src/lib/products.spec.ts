@@ -2,7 +2,7 @@ import { exampleProducts } from './products';
 
 describe('products', () => {
   it('should work', () => {
-    expect(exampleProducts).toContain({
+    expect(exampleProducts).toContainEqual({
       id: '1',
       name: 'Product 1',
       price: 100,
